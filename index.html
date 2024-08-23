@@ -1,7 +1,2572 @@
-<!DOCTYPE html>
-<html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<base href="https://docs.gethelix.co/">
+<title>Helix Documentation</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Helix Documentation">
+<meta property="og:site_name" content="Helix Documentation">
+<meta property="og:description" content="Documentation and function reference for the Helix framework.">
+<link rel="stylesheet" href="Helix%20Documentation_files/css.css">
+<link rel="stylesheet" href="Helix%20Documentation_files/ldoc.css">
+<link rel="stylesheet" href="Helix%20Documentation_files/highlight.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<main>
+<nav>
+<header>
+<input id="search" type="search" autocomplete="off" placeholder="Search...">
+</header>
+<section>
+<details class="category" open="">
+<summary>
+<h2>Hooks</h2>
+</summary>
+<ul>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/hooks/class/">Class</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/class/#CanSwitchTo">
+CanSwitchTo </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/class/#OnLeave">
+OnLeave </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/class/#OnSet">
+OnSet </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/class/#OnSpawn">
+OnSpawn </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/hooks/faction/">Faction</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/faction/#GetDefaultName">
+GetDefaultName </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/faction/#OnCharacterCreated">
+OnCharacterCreated </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/faction/#OnSpawn">
+OnSpawn </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/faction/#OnTransferred">
+OnTransferred </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/hooks/plugin/">Plugin</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#AdjustCreationPayload">
+AdjustCreationPayload </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#AdjustStaminaOffset">
+AdjustStaminaOffset </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#BuildBusinessMenu">
+BuildBusinessMenu </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanAutoFormatMessage">
+CanAutoFormatMessage </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanCreateCharacterInfo">
+CanCreateCharacterInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanDrawAmmoHUD">
+CanDrawAmmoHUD </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerAccessDoor">
+CanPlayerAccessDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerCombineItem">
+CanPlayerCombineItem </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerCreateCharacter">
+CanPlayerCreateCharacter </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerDropItem">
+CanPlayerDropItem </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerEarnSalary">
+CanPlayerEarnSalary </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerEnterObserver">
+CanPlayerEnterObserver </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerEquipItem">
+CanPlayerEquipItem </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerHoldObject">
+CanPlayerHoldObject </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerInteractEntity">
+CanPlayerInteractEntity </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerInteractItem">
+CanPlayerInteractItem </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerJoinClass">
+CanPlayerJoinClass </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerKnock">
+CanPlayerKnock </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerOpenShipment">
+CanPlayerOpenShipment </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerSpawnContainer">
+CanPlayerSpawnContainer </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerTakeItem">
+CanPlayerTakeItem </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerThrowPunch">
+CanPlayerThrowPunch </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerTradeWithVendor">
+CanPlayerTradeWithVendor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerUnequipItem">
+CanPlayerUnequipItem </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerUseBusiness">
+CanPlayerUseBusiness </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerUseCharacter">
+CanPlayerUseCharacter </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerUseDoor">
+CanPlayerUseDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerUseVendor">
+CanPlayerUseVendor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanPlayerViewInventory">
+CanPlayerViewInventory </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanSaveContainer">
+CanSaveContainer </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CanTransferItem">
+CanTransferItem </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterAttributeBoosted">
+CharacterAttributeBoosted </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterAttributeUpdated">
+CharacterAttributeUpdated </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterDeleted">
+CharacterDeleted </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterHasFlags">
+CharacterHasFlags </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterLoaded">
+CharacterLoaded </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterPostSave">
+CharacterPostSave </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterPreSave">
+CharacterPreSave </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterRecognized">
+CharacterRecognized </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterRestored">
+CharacterRestored </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterVarChanged">
+CharacterVarChanged </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CharacterVendorTraded">
+CharacterVendorTraded </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ChatboxCreated">
+ChatboxCreated </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ChatboxPositionChanged">
+ChatboxPositionChanged </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ColorSchemeChanged">
+ColorSchemeChanged </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ContainerRemoved">
+ContainerRemoved </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CreateCharacterInfo">
+CreateCharacterInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CreateCharacterInfoCategory">
+CreateCharacterInfoCategory </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CreateItemInteractionMenu">
+CreateItemInteractionMenu </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CreateMenuButtons">
+CreateMenuButtons </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#CreateShipment">
+CreateShipment </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#DatabaseConnected">
+DatabaseConnected </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#DatabaseConnectionFailed">
+DatabaseConnectionFailed </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#DoPluginIncludes">
+DoPluginIncludes </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#DrawCharacterOverview">
+DrawCharacterOverview </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#DrawHelixModelView">
+DrawHelixModelView </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#DrawPlayerRagdoll">
+DrawPlayerRagdoll </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetCharacterDescription">
+GetCharacterDescription </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetCharacterName">
+GetCharacterName </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetChatPrefixInfo">
+GetChatPrefixInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetCrosshairAlpha">
+GetCrosshairAlpha </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetDefaultAttributePoints">
+GetDefaultAttributePoints </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetDefaultCharacterName">
+GetDefaultCharacterName </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetMaxPlayerCharacter">
+GetMaxPlayerCharacter </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetPlayerDeathSound">
+GetPlayerDeathSound </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetPlayerEntityMenu">
+GetPlayerEntityMenu </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetPlayerIcon">
+GetPlayerIcon </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetPlayerPainSound">
+GetPlayerPainSound </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetPlayerPunchDamage">
+GetPlayerPunchDamage </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetSalaryAmount">
+GetSalaryAmount </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#GetTypingIndicator">
+GetTypingIndicator </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#InitializedChatClasses">
+InitializedChatClasses </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#InitializedConfig">
+InitializedConfig </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#InitializedPlugins">
+InitializedPlugins </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#InitializedSchema">
+InitializedSchema </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#InventoryItemAdded">
+InventoryItemAdded </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#InventoryItemRemoved">
+InventoryItemRemoved </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#IsCharacterRecognized">
+IsCharacterRecognized </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#IsPlayerRecognized">
+IsPlayerRecognized </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#IsRecognizedChatType">
+IsRecognizedChatType </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#LoadData">
+LoadData </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#LoadFonts">
+LoadFonts </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#LoadIntro">
+LoadIntro </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#MenuSubpanelCreated">
+MenuSubpanelCreated </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#MessageReceived">
+MessageReceived </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnAreaChanged">
+OnAreaChanged </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnCharacterCreated">
+OnCharacterCreated </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnCharacterDisconnect">
+OnCharacterDisconnect </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnCharacterFallover">
+OnCharacterFallover </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnCharacterGetup">
+OnCharacterGetup </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnCharacterMenuCreated">
+OnCharacterMenuCreated </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnItemSpawned">
+OnItemSpawned </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnItemTransferred">
+OnItemTransferred </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnLocalVarSet">
+OnLocalVarSet </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPAC3PartTransferred">
+OnPAC3PartTransferred </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPickupMoney">
+OnPickupMoney </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPlayerAreaChanged">
+OnPlayerAreaChanged </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPlayerObserve">
+OnPlayerObserve </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPlayerOptionSelected">
+OnPlayerOptionSelected </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPlayerPurchaseDoor">
+OnPlayerPurchaseDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPlayerRestricted">
+OnPlayerRestricted </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnPlayerUnRestricted">
+OnPlayerUnRestricted </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnSavedItemLoaded">
+OnSavedItemLoaded </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#OnWipeTables">
+OnWipeTables </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerEnterSequence">
+PlayerEnterSequence </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerInteractEntity">
+PlayerInteractEntity </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerInteractItem">
+PlayerInteractItem </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerJoinedClass">
+PlayerJoinedClass </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerLeaveSequence">
+PlayerLeaveSequence </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerLoadedCharacter">
+PlayerLoadedCharacter </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerLockedDoor">
+PlayerLockedDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerLockedVehicle">
+PlayerLockedVehicle </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerMessageSend">
+PlayerMessageSend </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerModelChanged">
+PlayerModelChanged </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerStaminaGained">
+PlayerStaminaGained </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerStaminaLost">
+PlayerStaminaLost </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerThrowPunch">
+PlayerThrowPunch </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerUnlockedDoor">
+PlayerUnlockedDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerUnlockedVehicle">
+PlayerUnlockedVehicle </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerUse">
+PlayerUse </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerUseDoor">
+PlayerUseDoor </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PlayerWeaponChanged">
+PlayerWeaponChanged </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PluginLoaded">
+PluginLoaded </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PluginShouldLoad">
+PluginShouldLoad </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PluginUnloaded">
+PluginUnloaded </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulateCharacterInfo">
+PopulateCharacterInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulateEntityInfo">
+PopulateEntityInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulateHelpMenu">
+PopulateHelpMenu </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulateImportantCharacterInfo">
+PopulateImportantCharacterInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulateItemTooltip">
+PopulateItemTooltip </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulatePlayerTooltip">
+PopulatePlayerTooltip </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PopulateScoreboardPlayerMenu">
+PopulateScoreboardPlayerMenu </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostChatboxDraw">
+PostChatboxDraw </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostDrawHelixModelView">
+PostDrawHelixModelView </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostDrawInventory">
+PostDrawInventory </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostLoadData">
+PostLoadData </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostPlayerLoadout">
+PostPlayerLoadout </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostPlayerSay">
+PostPlayerSay </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PostSetupActs">
+PostSetupActs </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PreCharacterDeleted">
+PreCharacterDeleted </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PrePlayerLoadedCharacter">
+PrePlayerLoadedCharacter </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#PrePlayerMessageSend">
+PrePlayerMessageSend </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#SaveData">
+SaveData </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ScreenResolutionChanged">
+ScreenResolutionChanged </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#SetupActs">
+SetupActs </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#SetupAreaProperties">
+SetupAreaProperties </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShipmentItemTaken">
+ShipmentItemTaken </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldBarDraw">
+ShouldBarDraw </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldDeleteSavedItems">
+ShouldDeleteSavedItems </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldDisplayArea">
+ShouldDisplayArea </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldDrawCrosshair">
+ShouldDrawCrosshair </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldDrawItemSize">
+ShouldDrawItemSize </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldHideBars">
+ShouldHideBars </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldPermakillCharacter">
+ShouldPermakillCharacter </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldPlayerDrowned">
+ShouldPlayerDrowned </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldRemoveRagdollOnDeath">
+ShouldRemoveRagdollOnDeath </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldRestoreInventory">
+ShouldRestoreInventory </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldShowPlayerOnScoreboard">
+ShouldShowPlayerOnScoreboard </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShouldSpawnClientRagdoll">
+ShouldSpawnClientRagdoll </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ShowEntityMenu">
+ShowEntityMenu </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#ThirdPersonToggled">
+ThirdPersonToggled </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#UpdateCharacterInfo">
+UpdateCharacterInfo </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#UpdateCharacterInfoCategory">
+UpdateCharacterInfoCategory </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#VoiceDistanceChanged">
+VoiceDistanceChanged </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#WeaponCycleSound">
+WeaponCycleSound </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/hooks/plugin/#WeaponSelectSound">
+WeaponSelectSound </a>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+<details class="category" open="">
+<summary>
+<h2>Panels</h2>
+</summary>
+<ul>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/panels/ixlabel/">ixLabel</a></summary>
+<ul>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#CalculateAlignment">
+CalculateAlignment </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#DrawKernedText">
+DrawKernedText </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#DrawText">
+DrawText </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetBackgroundColor">
+GetBackgroundColor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetContentAlignment">
+GetContentAlignment </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetContentSize">
+GetContentSize </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetFont">
+GetFont </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetKerning">
+GetKerning </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetPadding">
+GetPadding </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetScaleWidth">
+GetScaleWidth </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetText">
+GetText </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#GetTextColor">
+GetTextColor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetBackgroundColor">
+SetBackgroundColor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetContentAlignment">
+SetContentAlignment </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetDropShadow">
+SetDropShadow </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetFont">
+SetFont </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetKerning">
+SetKerning </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetPadding">
+SetPadding </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetScaleWidth">
+SetScaleWidth </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetText">
+SetText </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SetTextColor">
+SetTextColor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixlabel/#SizeToContents">
+SizeToContents </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/panels/ixtooltip/">ixTooltip</a></summary>
+<ul>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#AddRow">
+AddRow </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#AddRowAfter">
+AddRowAfter </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#GetCursorPosition">
+GetCursorPosition </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#GetRow">
+GetRow </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#IsMinimal">
+IsMinimal </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#SetEntity">
+SetEntity </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltip/#SizeToContents">
+SizeToContents </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/panels/ixtooltiprow/">ixTooltipRow</a></summary>
+<ul>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#IsMinimal">
+IsMinimal </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#Paint">
+Paint </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#PaintBackground">
+PaintBackground </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#SetBackgroundColor">
+SetBackgroundColor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#SetImportant">
+SetImportant </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#SizeToContents">
+SizeToContents </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/panels/ixtooltiprow/#SizeToContentsY">
+SizeToContentsY </a>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+<details class="category" open="">
+<summary>
+<h2>Libraries</h2>
+</summary>
+<ul>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix/">ix</a></summary>
+<ul>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.act/">ix.act</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.act/#ix.act.Register">
+Register </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.act/#ix.act.Remove">
+Remove </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.anim/">ix.anim</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.anim/#ix.anim.GetModelClass">
+GetModelClass </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.anim/#ix.anim.SetModelClass">
+SetModelClass </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.char/">ix.char</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.char/#ix.char.Create">
+Create </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.char/#ix.char.New">
+New </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.char/#ix.char.Restore">
+Restore </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.char/#ix.char.RestoreVars">
+RestoreVars </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.chat/">ix.chat</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.chat/#ix.chat.Format">
+Format </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.chat/#ix.chat.Parse">
+Parse </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.chat/#ix.chat.Register">
+Register </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.chat/#ix.chat.Send">
+Send </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.class/">ix.class</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.class/#ix.class.CanSwitchTo">
+CanSwitchTo </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.class/#ix.class.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.class/#ix.class.GetPlayers">
+GetPlayers </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.class/#ix.class.LoadFromDir">
+LoadFromDir </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.command/">ix.command</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.Add">
+Add </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.ExtractArgs">
+ExtractArgs </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.FindAll">
+FindAll </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.FindPlayer">
+FindPlayer </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.HasAccess">
+HasAccess </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.Parse">
+Parse </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.Run">
+Run </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.command/#ix.command.Send">
+Send </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.config/">ix.config</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.config/#ix.config.Add">
+Add </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.config/#ix.config.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.config/#ix.config.Load">
+Load </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.config/#ix.config.Save">
+Save </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.config/#ix.config.Set">
+Set </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.config/#ix.config.SetDefault">
+SetDefault </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.currency/">ix.currency</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.currency/#ix.currency.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.currency/#ix.currency.Set">
+Set </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.currency/#ix.currency.Spawn">
+Spawn </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.data/">ix.data</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.data/#ix.data.Delete">
+Delete </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.data/#ix.data.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.data/#ix.data.Set">
+Set </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.date/">ix.date</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.Construct">
+Construct </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.GetFormatted">
+GetFormatted </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.GetSerialized">
+GetSerialized </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.Initialize">
+Initialize </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.ResolveOffset">
+ResolveOffset </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.Save">
+Save </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.Send">
+Send </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.date/#ix.date.UpdateTimescale">
+UpdateTimescale </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.faction/">ix.faction</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.faction/#ix.faction.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.faction/#ix.faction.GetIndex">
+GetIndex </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.faction/#ix.faction.HasWhitelist">
+HasWhitelist </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.faction/#ix.faction.LoadFromDir">
+LoadFromDir </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.flag/">ix.flag</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.flag/#ix.flag.Add">
+Add </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.inventory/">ix.inventory</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.inventory/#ix.inventory.Get">
+Get </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.inventory/#ix.inventory.Restore">
+Restore </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.item/">ix.item</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.item/#ix.item.Get">
+Get </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.item/#ix.item.Spawn">
+Spawn </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.lang/">ix.lang</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.lang/#ix.lang.AddTable">
+AddTable </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.lang/#ix.lang.LoadFromDir">
+LoadFromDir </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.log/">ix.log</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.log/#ix.log.Add">
+Add </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.log/#ix.log.AddType">
+AddType </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.menu/">ix.menu</a></summary>
+<ul>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.menu/#ix.menu.IsOpen">
+IsOpen </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.menu/#ix.menu.NetworkChoice">
+NetworkChoice </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.menu/#ix.menu.Open">
+Open </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.notice/">ix.notice</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.notice/#ix.util.Notify">
+ix.util.Notify </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.notice/#ix.util.NotifyLocalized">
+ix.util.NotifyLocalized </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.option/">ix.option</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Add">
+Add </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Get">
+Get </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Get">
+Get </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.GetAll">
+GetAll </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.GetAllByCategories">
+GetAllByCategories </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Load">
+Load </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Save">
+Save </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Set">
+Set </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.option/#ix.option.Sync">
+Sync </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.storage/">ix.storage</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.AddReceiver">
+AddReceiver </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.Close">
+Close </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.CreateContext">
+CreateContext </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.InUse">
+InUse </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.InUseBy">
+InUseBy </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.Open">
+Open </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.RemoveContext">
+RemoveContext </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.RemoveReceiver">
+RemoveReceiver </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/libraries/ix.storage/#ix.storage.Sync">
+Sync </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/libraries/ix.util/">ix.util</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.DimColor">
+DimColor </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.DrawBlur">
+DrawBlur </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.DrawBlurAt">
+DrawBlurAt </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.DrawText">
+DrawText </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.EmitQueuedSounds">
+EmitQueuedSounds </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.ExpandCamelCase">
+ExpandCamelCase </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.FindPlayer">
+FindPlayer </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.FormatStringNamed">
+FormatStringNamed </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.GetCharacters">
+GetCharacters </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.GetMaterial">
+GetMaterial </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.GetStringTime">
+GetStringTime </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.GetTypeFromValue">
+GetTypeFromValue </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.GetUTCTime">
+GetUTCTime </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.Include">
+Include </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.IncludeDir">
+IncludeDir </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.IsColor">
+IsColor </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.MetatableSafeTableMerge">
+MetatableSafeTableMerge </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.PushBlur">
+PushBlur </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.ResetStencilValues">
+ResetStencilValues </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.SanitizeType">
+SanitizeType </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.StringMatches">
+StringMatches </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.StripRealmPrefix">
+StripRealmPrefix </a>
+</li>
+<li>
+<span class="realm client"></span>
+<a href="https://docs.gethelix.co/libraries/ix.util/#ix.util.WrapText">
+WrapText </a>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+<details class="category" open="">
+<summary>
+<h2>Classes</h2>
+</summary>
+<ul>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/classes/character/">Character</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#AddBoost">
+AddBoost </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#Ban">
+Ban </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetAttribute">
+GetAttribute </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetBoost">
+GetBoost </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetBoosts">
+GetBoosts </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetClass">
+GetClass </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetCreateTime">
+GetCreateTime </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetData">
+GetData </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetDescription">
+GetDescription </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetFaction">
+GetFaction </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetFlags">
+GetFlags </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetID">
+GetID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetInventory">
+GetInventory </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetLastJoinTime">
+GetLastJoinTime </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetModel">
+GetModel </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetMoney">
+GetMoney </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetName">
+GetName </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetPlayer">
+GetPlayer </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetSchema">
+GetSchema </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#GetSteamID">
+GetSteamID </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#GiveFlags">
+GiveFlags </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#HasFlags">
+HasFlags </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#JoinClass">
+JoinClass </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#Kick">
+Kick </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#KickClass">
+KickClass </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#RemoveBoost">
+RemoveBoost </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#Save">
+Save </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetAttrib">
+SetAttrib </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetData">
+SetData </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetDescription">
+SetDescription </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetFaction">
+SetFaction </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetFlags">
+SetFlags </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetModel">
+SetModel </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetMoney">
+SetMoney </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#SetName">
+SetName </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#Sync">
+Sync </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#TakeFlags">
+TakeFlags </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/character/#UpdateAttrib">
+UpdateAttrib </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#__eq">
+__eq </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/character/#__tostring">
+__tostring </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/classes/entity/">Entity</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/entity/#BlastDoor">
+BlastDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/entity/#ClearNetVars">
+ClearNetVars </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/entity/#GetBlocker">
+GetBlocker </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/entity/#GetDoorPartner">
+GetDoorPartner </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/entity/#GetNetVar">
+GetNetVar </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/entity/#IsChair">
+IsChair </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/entity/#IsDoor">
+IsDoor </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/entity/#IsLocked">
+IsLocked </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/entity/#SendNetVar">
+SendNetVar </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/entity/#SetNetVar">
+SetNetVar </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/classes/inventory/">Inventory</a></summary>
+<ul>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#Add">
+Add </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#AddReceiver">
+AddReceiver </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#CanItemFit">
+CanItemFit </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#FindEmptySlot">
+FindEmptySlot </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#FindError">
+FindError </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetFilledSlotCount">
+GetFilledSlotCount </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetID">
+GetID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItemAt">
+GetItemAt </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItemByID">
+GetItemByID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItemCount">
+GetItemCount </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItems">
+GetItems </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItemsByBase">
+GetItemsByBase </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItemsByID">
+GetItemsByID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetItemsByUniqueID">
+GetItemsByUniqueID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetOwner">
+GetOwner </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetReceivers">
+GetReceivers </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetShouldSave">
+GetShouldSave </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#GetSize">
+GetSize </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#HasItem">
+HasItem </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#HasItemOfBase">
+HasItemOfBase </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#HasItems">
+HasItems </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#Initialize">
+Initialize </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#Iter">
+Iter </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#OnCheckAccess">
+OnCheckAccess </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#PrintAll">
+PrintAll </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#Remove">
+Remove </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#RemoveReceiver">
+RemoveReceiver </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#SendSlot">
+SendSlot </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#SetOwner">
+SetOwner </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#SetShouldSave">
+SetShouldSave </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#SetSize">
+SetSize </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#Sync">
+Sync </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/inventory/#__tostring">
+__tostring </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/classes/item/">Item</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#Call">
+Call </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetCharacterID">
+GetCharacterID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetData">
+GetData </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetDescription">
+GetDescription </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetEntity">
+GetEntity </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetID">
+GetID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetModel">
+GetModel </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetName">
+GetName </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetOwner">
+GetOwner </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetPlayerID">
+GetPlayerID </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#GetSkin">
+GetSkin </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#Hook">
+Hook </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#PostHook">
+PostHook </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#Print">
+Print </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#PrintData">
+PrintData </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#Remove">
+Remove </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#SetData">
+SetData </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/item/#Spawn">
+Spawn </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/item/#Transfer">
+Transfer </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#__eq">
+__eq </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/item/#__tostring">
+__tostring </a>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary><a href="https://docs.gethelix.co/classes/player/">Player</a></summary>
+<ul>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#CanShootWeapon">
+CanShootWeapon </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#ChatNotify">
+ChatNotify </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#ChatNotifyLocalized">
+ChatNotifyLocalized </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#CreateServerRagdoll">
+CreateServerRagdoll </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#DoStaredAction">
+DoStaredAction </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#ForceSequence">
+ForceSequence </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#GetCharacter">
+GetCharacter </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#GetItemDropPos">
+GetItemDropPos </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#GetLocalVar">
+GetLocalVar </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#GetName">
+GetName </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#GetPlayTime">
+GetPlayTime </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#IsFemale">
+IsFemale </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#IsRestricted">
+IsRestricted </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#IsRunning">
+IsRunning </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#IsStuck">
+IsStuck </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#IsWepRaised">
+IsWepRaised </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#LeaveSequence">
+LeaveSequence </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#Notify">
+Notify </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#NotifyLocalized">
+NotifyLocalized </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#PerformInteraction">
+PerformInteraction </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#RequestString">
+RequestString </a>
+</li>
+<li>
+<span class="realm shared"></span>
+<a href="https://docs.gethelix.co/classes/player/#ResetBodygroups">
+ResetBodygroups </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#SetAction">
+SetAction </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#SetLocalVar">
+SetLocalVar </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#SetRagdolled">
+SetRagdolled </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#SetRestricted">
+SetRestricted </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#SetWepRaised">
+SetWepRaised </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#SyncVars">
+SyncVars </a>
+</li>
+<li>
+<span class="realm server"></span>
+<a href="https://docs.gethelix.co/classes/player/#ToggleWepRaised">
+ToggleWepRaised </a>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+<details class="category" open="">
+<summary>
+<h2>Manual</h2>
+</summary>
+<ul>
+<li>
+<a href="https://docs.gethelix.co/manual/converting-from-clockwork/">Clockwork to Helix Migration</a>
+</li>
+<li>
+<a href="https://docs.gethelix.co/manual/getting-started/">Getting Started</a>
+</li>
+</ul>
+</details>
+</section>
+</nav>
+<article>
+<div class="landing">
+<h1>Helix Documentation</h1>
+</div>
+<div class="wrapper">
+<p style="text-align: center;">Welcome to the documentation for Helix - the better gamemode framework.</p>
+<h2>Developers</h2>
+<p>The sidebar shows the entire contents of the documentation. 
+Libraries, functions, etc are all searchable with the search box at the 
+top of the sidebar. Migrating from Clockwork? Check out the <a href="https://docs.gethelix.co/manual/converting-from-clockwork">conversion guide</a> in the manual.</p>
+<h2>Server owners</h2>
+<p>If you're looking to get your Helix server up and running as soon as possible, check out the <a href="https://docs.gethelix.co/manual/getting-started">Getting Started</a> guide in the manual.</p>
+<h2>Community</h2>
+<p>Questions? Want to show off your work? Maybe drop a new plugin release? Come join our community <a href="https://discord.gg/2AutUcF" target="_blank">Discord server</a>.</p>
+<h2>Contributing</h2>
+<p>Helix is a large project and there are still a few things missing 
+here and there. Contributions to the documentation - from function 
+references, to simple typo fixes - are welcomed! Check out the <code>ix.storage</code> library's <a href="https://github.com/NebulousCloud/helix/blob/master/gamemode/core/libs/sh_storage.lua" target="_blank">source code</a> for a good example on how to write documentation. You'll need a basic understanding of <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Markdown</a>, since it's used extensively to generate the markup.</p>
+<p>If you'd like to contribute code, you can visit the <a href="https://github.com/NebulousCloud/helix/" target="_blank">GitHub repository</a> and make a pull request.</p>
+<h2>Learning</h2>
+<p>Getting started on developing with the Helix framework requires an 
+intermediate level of Garry's Mod Lua knowledge. You'll want to learn 
+the basics before you get starting making a schema. The <a href="https://wiki.facepunch.com/gmod/" target="_blank">Garry's Mod Wiki</a> is a good place to start.</p>
+</div>
+</article>
+</main>
+<script type="text/javascript" src="Helix%20Documentation_files/app.js"></script>
+<script type="text/javascript" src="Helix%20Documentation_files/highlight.min.js"></script>
+<script type="text/javascript">
+			var elements = document.querySelectorAll("pre code")
+
+			hljs.configure({
+				languages: ["lua"]
+			});
+
+			for (var i = 0; i < elements.length; i++)
+			{
+				hljs.highlightBlock(elements[i]);
+			}
+		</script>
+<script defer="defer" src="Helix%20Documentation_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;8b7cc0d248ba31f6&quot;,&quot;version&quot;:&quot;2024.8.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;7300bf34406547b9a58fa300744ecc2b&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfL4&quot;:true}}}" crossorigin="anonymous"></script>
+
+
+</body></html>
